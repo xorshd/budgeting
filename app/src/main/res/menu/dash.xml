@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ei"
+        android:icon="@drawable/edit"
+        android:title="Edit Budget"
+        app:showAsAction="withText"
+        />
+
+    <item
+        android:id="@+id/rf"
+        android:title="Refresh"
+        app:showAsAction="withText"
+        android:icon="@drawable/ref"/>
+
+    <item
+        android:id="@+id/log"
+        android:title="Logout"
+        app:showAsAction="withText"
+        android:icon="@drawable/ref"/>
+</menu>

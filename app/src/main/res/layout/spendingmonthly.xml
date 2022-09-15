@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="6dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:background="#fff">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/img"-->
+        <!--android:layout_width="45dp"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:src="@drawable/sch"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_margin="5dp"/>-->
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="July"
+        android:textColor="@color/aux3"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/lato"
+        android:layout_marginTop="3dp"
+        android:layout_centerVertical="true"
+        android:letterSpacing="0.1"
+        />
+
+        />
+    <LinearLayout
+        android:id="@+id/ilayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income: "
+            android:textColor="@color/aux5"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/lato"/>
+        <TextView
+            android:id="@+id/income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₦20000"
+            android:textColor="@color/aux10"
+            android:textSize="15sp"
+            android:fontFamily="@font/lato"
+            />
+    </LinearLayout>
+   <LinearLayout
+       android:id="@+id/slayout"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="2dp"
+       android:layout_below="@id/ilayout">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Spending: "
+           android:textColor="@color/aux5"
+           android:textSize="13sp"
+           android:textStyle="bold"
+           android:fontFamily="@font/lato"
+           />
+       <TextView
+           android:id="@+id/spend"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="₦12000"
+           android:textColor="@color/aux8"
+           android:textSize="15sp"
+           android:textStyle="bold"
+           android:fontFamily="@font/lato"
+           android:layout_below="@id/ilayout"/>
+   </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/slayout"
+        android:background="@color/aux2"
+        android:layout_marginTop="15dp"
+       />
+    
+</RelativeLayout>

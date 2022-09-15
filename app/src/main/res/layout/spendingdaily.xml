@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:background="#fff">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/img"-->
+        <!--android:layout_width="45dp"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:src="@drawable/sch"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_margin="5dp"/>-->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textColor="@color/aux3"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/lato"
+        android:layout_marginTop="3dp"
+        android:layout_centerVertical="true"
+        />
+
+        />
+
+    <LinearLayout
+        android:id="@+id/others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/date"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="9dp">
+        <TextView
+            android:id="@+id/date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2019-03"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgshape"
+            android:backgroundTint="@color/aux9"
+            android:text="Monday"
+            android:textSize="11sp"
+            android:textColor="#fff"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₦12000"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/aux8"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/lato"
+        android:layout_below="@id/text"
+        android:layout_marginTop="1dp"
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Spending"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/aux5"
+        android:textSize="13sp"
+        android:fontFamily="@font/lato"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/others"
+        android:background="@color/aux2"
+        android:layout_marginTop="15dp"
+       />
+    
+</RelativeLayout>

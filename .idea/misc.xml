@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/font/patua_one.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/font/poppins.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/activity_exp_breakdown.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/addexpense.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/addincome.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/fragment_daily.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/fragment_today.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/overspend.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/spending.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/spendingdaily.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/spendingmonthly.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/layout/spinner_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/menu/dash.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Budget-Manager-master/app/src/main/res/menu/dash2.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>
